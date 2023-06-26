@@ -25,7 +25,7 @@ class ATGWorldWebsiteTest(unittest.TestCase):
         except requests.exceptions.RequestException as e:
             print("GET request to the target URL is initiated..")
             print("Fetching the results..")
-            print("An error occurred while making the requests:")
+            print("An error occurred while making the request:")
             print(str(e))
           
 
