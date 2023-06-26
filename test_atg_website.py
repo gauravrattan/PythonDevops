@@ -4,7 +4,7 @@ import requests
 class ATGWorldWebsiteTest(unittest.TestCase):
 
     def test_website_loading(self):
-        url = "https://www.atg.world/"
+        url = "https://www.atg.word/"
         print("Input target URL for unit testing is provided: " + str(url))
 
         try:
