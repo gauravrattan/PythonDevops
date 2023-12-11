@@ -1,6 +1,7 @@
 import unittest
 import requests
 
+
 class ATGWorldWebsiteTest(unittest.TestCase):
 
     def test_website_loading(self):
